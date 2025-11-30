@@ -9,8 +9,9 @@ void main() {
   WidgetsFlutterBinding.ensureInitialized();
 
   final repository = ActivityRepository(
-    baseUrl: 'https://your-backend.com/api', // Replace with your real backend
+    baseUrl: 'http://localhost:3000/api',
   );
+
 
   runApp(MyApp(repository: repository));
 }
