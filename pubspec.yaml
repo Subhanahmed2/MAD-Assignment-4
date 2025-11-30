@@ -1,0 +1,50 @@
+name: smarttracker55572
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+
+  # State management
+  provider: ^6.0.5
+
+  # HTTP requests
+  http: ^0.13.6
+
+  # GPS / location
+  geolocator: ^9.0.2
+
+  # Google Maps
+  google_maps_flutter: ^2.2.5
+
+  # Camera (mobile)
+  camera: ^0.10.0+1
+  path_provider: ^2.0.12
+
+  # Image picker for capturing photos
+  image_picker: ^0.8.7+6
+
+  # Offline storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.1.1   # <-- Added for storing last 5 activities offline
+
+  # Unique IDs
+  uuid: ^3.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
